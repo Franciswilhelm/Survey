@@ -8,6 +8,62 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
+    <div class="container">
+      <h1>Survey</h1>
 
+      <form id="name">
+        <div class="form-group">
+          <label for="name">Enter your name:</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+      </form>
+
+      <form id="favfood">
+        <label for="food">What is your favorite food?</label>
+        <!-- ===Uncertain about values=== -->
+        <select class="form-control" id="foods">
+          <option value="1">Butter</option>
+          <option value="2">Margerine</option>
+          <option value="3">Brown Sugar</option>
+        </select>
+      </form>
+
+      <form id="music">
+        <div class="radio">
+          <p><strong>What is your favorite style of music?</strong></p>
+          <label>
+          <input type="radio" name="style" value="polka">
+          Polka
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+          <input type="radio" name="style" value="rock">
+          Rock n' Roll
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+          <input type="radio" name="style" value="jazz">
+          Jazz
+          </label>
+        </div>
+      </form>
+
+      <form>
+        <div class="form-group">
+          <label for"color">What is your favorite color?</label>
+          <input id="color" class="form-control" type="color">
+        </div>
+      </form>
+
+      <form>
+        <div class="form-group">
+          <label for="born">Date of birth?:</label>
+          <input id="born" class="form-control" type="date">
+        </div>
+      </form>
+
+    </div>
   </body>
 </html>
