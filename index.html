@@ -11,24 +11,24 @@
     <div class="container">
       <h1>Survey</h1>
 
-      <form id="name">
+      <form id="survey">
         <div class="form-group">
           <label for="name">Enter your name:</label>
           <input id="name" class="form-control" type="text">
         </div>
-      </form>
+      <!-- </form> -->
 
-      <form id="favfood">
+      <!-- <form id="favfood"> -->
         <label for="food">What is your favorite food?</label>
         <!-- ===Uncertain about values=== -->
         <select class="form-control" id="foods">
-          <option value="1">Butter</option>
-          <option value="2">Margerine</option>
-          <option value="3">Brown Sugar</option>
+          <option value="Butter">Butter</option>
+          <option value="Margerine">Margerine</option>
+          <option value="Brown Sugar">Brown Sugar</option>
         </select>
-      </form>
+      <!-- </form> -->
 
-      <form id="music">
+      <!-- <form id="music"> -->
         <div class="radio">
           <p><strong>What is your favorite style of music?</strong></p>
           <label>
@@ -48,21 +48,24 @@
           Jazz
           </label>
         </div>
-      </form>
+      <!-- </form> -->
 
-      <form>
+      <!-- <form> -->
         <div class="form-group">
           <label for"color">What is your favorite color?</label>
           <input id="color" class="form-control" type="color">
         </div>
-      </form>
+      <!-- </form> -->
 
-      <form>
+      <!-- <form> -->
         <div class="form-group">
           <label for="born">Date of birth?:</label>
           <input id="born" class="form-control" type="date">
         </div>
+        <button type="submit" class="btn">Submit</button>
       </form>
+
+      <div><p id="output"></p></div>
 
     </div>
   </body>
