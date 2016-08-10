@@ -10,25 +10,17 @@
   <body>
     <div class="container">
       <h1>Survey</h1>
-
       <form id="survey">
         <div class="form-group">
           <label for="name">Enter your name:</label>
           <input id="name" class="form-control" type="text">
         </div>
-      <!-- </form> -->
-
-      <!-- <form id="favfood"> -->
         <label for="food">What is your favorite food?</label>
-        <!-- ===Uncertain about values=== -->
         <select class="form-control" id="foods">
           <option value="Butter">Butter</option>
           <option value="Margerine">Margerine</option>
           <option value="Brown Sugar">Brown Sugar</option>
         </select>
-      <!-- </form> -->
-
-      <!-- <form id="music"> -->
         <div class="radio">
           <p><strong>What is your favorite style of music?</strong></p>
           <label>
@@ -48,25 +40,25 @@
           Jazz
           </label>
         </div>
-      <!-- </form> -->
-
-      <!-- <form> -->
         <div class="form-group">
           <label for"color">What is your favorite color?</label>
           <input id="color" class="form-control" type="color">
         </div>
-      <!-- </form> -->
-
-      <!-- <form> -->
         <div class="form-group">
           <label for="born">Date of birth?:</label>
           <input id="born" class="form-control" type="date">
         </div>
         <button type="submit" class="btn">Submit</button>
       </form>
-
-      <div><p id="output"></p></div>
-
+      <div>
+        <ul id="output">
+          <li id="nameoutput">Name: </li>
+          <li id="foodoutput">Food: </li>
+          <li id="styleoutput">Music: </li>
+          <li id="coloroutput">Color: </li>
+          <li id="doboutput">DOB: </li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>
